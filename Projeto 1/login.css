@@ -1,0 +1,182 @@
+/* Estilos Gerais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #fff;
+  padding: 20px;
+  color: #276379;
+  border-bottom: 2px solid #276379;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #276379;
+}
+
+.btn-cadastrar {
+  background-color: #1C6E8C;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn-cadastrar:hover {
+  background-color: #276379;
+}
+
+/* Conteúdo Principal */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  padding: 20px;
+}
+
+.login-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  height: auto;
+}
+
+.login-form {
+  flex: 1;
+  background-color: #274156;
+  padding: 40px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #fff;
+  text-align: center;
+}
+
+label {
+  font-size: 16px;
+  margin-bottom: 5px;
+  display: block;
+  color: #fff;
+}
+
+input {
+  width: 100%;
+  padding: 16px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  width: 150px;
+  padding: 16px;
+  background-color: #1C6E8C;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #276379;
+}
+
+.cadastrar-link {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.cadastrar-link:hover {
+  text-decoration: underline;
+}
+
+/* Logo Container */
+.logo-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo-container img {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+}
+
+/* Rodapé */
+footer {
+  background-color: #fff;
+  padding: 0;
+  border-top: 2px solid #276379;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.footer-left .logo-footer {
+  max-width: 100px;
+  height: auto;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-right a {
+  color: #276379;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.footer-right a:hover {
+  text-decoration: underline;
+}
+
