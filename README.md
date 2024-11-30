@@ -40,12 +40,6 @@ O projeto segue as diretrizes do ODS 4 (Educação de Qualidade), visando democr
 3. Página de **cadastro** para novos usuários.
 4. Rodapé com links para os currículos dos desenvolvedores.
 
-### Demonstração
-- **Página de Login:**
-  ![Demonstração da Página de Login](./figs/demonstracao-login.png)
-
-- **Página de Cadastro:**
-  ![Demonstração da Página de Cadastro](./figs/demonstracao-cadastro.png)
 
 ---
 
