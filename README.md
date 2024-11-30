@@ -63,7 +63,7 @@ O projeto segue as diretrizes do ODS 4 (Educação de Qualidade), visando democr
 Agradecimentos a todos que contribuíram para o desenvolvimento do projeto:
 - [Amanda Souza](linkedin.com/in/amanda-moura-cavalcante-6114b91ba)
 - [Thomas Silva](linkedin.com/in/thomas-hurtado-47a576254)
-- [Melina Gonçalves](curriculo-melina-g.html)
+- [Melina Gonçalves](linkedin.com/in/melina-a-goncalvesl)
 
 ---
 
