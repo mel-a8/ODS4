@@ -10,8 +10,8 @@
 ## 🛡️ Badges
 ![Status](https://img.shields.io/badge/Status-Em%20desenvolvimento-yellow)
 ![Licença](https://img.shields.io/badge/Licen%C3%A7a-MIT-green)
-![HTML5](https://img.shields.io/badge/HTML5-Utilizado-orange)
-![CSS3](https://img.shields.io/badge/CSS3-Utilizado-blue)
+![HTML](https://img.shields.io/badge/HTML-Utilizado-orange)
+![CSS](https://img.shields.io/badge/CSS-Utilizado-blue)
 
 ---
 
@@ -46,8 +46,8 @@ O projeto segue as diretrizes do ODS 4 (Educação de Qualidade), visando democr
 
 ## 💻 Tecnologias Utilizadas
 
-- **HTML5**: Estrutura das páginas.
-- **CSS3**: Estilização e design responsivo.
+- **HTML**: Estrutura das páginas.
+- **CSS**: Estilização e design responsivo.
 - **Git/GitHub**: Controle de versão e colaboração.
 
 ---
