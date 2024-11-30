@@ -4,7 +4,7 @@
     
   }
   
-  html{
+  html {
     display: flex;
     flex-direction: column;
   }
@@ -14,26 +14,33 @@
     background-color: #D0CCD0;
     color: #333;
   }
+
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    padding: 20px;
+  }
   
   header {
     background-color: #EDEDED;
     padding: 20px;
     color: #276379;
   }
-  
-  .header-container {
+
+  .conteudo_header {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
   
-  header h1 {
-    font-size: 28px;
-    font-weight: bold;
-    color: #276379;
+  .logo_header {
+    max-width: 200px;
+    height: auto;
   }
   
-  .btn-entrar {
+  .botao_entrar {
     background-color: #1C6E8C;
     padding: 10px 20px;
     color: #fff;
@@ -42,50 +49,41 @@
     font-weight: bold;
   }
   
-  .btn-entrar:hover {
+  .botao_entrar:hover {
     background-color: #276379;
   }
 
-  main {
+  .fundo_cadastro {
     display: flex;
-    justify-items: center;
-    align-items: center;
-    margin-left: 15dvw;
-    height: 80vh;
-    padding: 60px;
-    flex-direction: row;
-    max-width: fit-content;
-    row-gap: 50px;
-  }
-  
-  #data-nascimento {
-    color: gray;
-    opacity: 1;
+    justify-content: space-between;
+    align-content: center;
+    background-color: #EDEDED;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    height: auto;
   }
 
-  #data-nascimento:valid{
-    color: black;
-  }
-  
-  .login-form {
+  .formulario_cadastro {
     display: flex;
     flex-direction: column;
     background-color: #274156;
-    padding: 40px;
+    padding: 25px;
     border-radius: 10px;
     align-items: center;
     justify-content: center;
     max-height: fit-content;
     max-width: 100%;
   }
-  
+
   h2 {
     font-size: 32px;
     margin-bottom: 30px;
     color: #fff;
     text-align: center;
   }
-  
+
   label {
     font-size: 16px;
     margin-bottom: 5px;
@@ -101,15 +99,23 @@
     border-radius: 5px;
     font-size: 16px;
   }
-  
-  .buttons {
+
+  #data-nascimento {
+    color: gray;
+    opacity: 1;
+  }
+
+  #data-nascimento:valid{
+    color: black;
+  }
+
+  .botao {
     display: flex;
     gap: 30px;
     align-items: center;
     justify-content: center;
     height: fit-content;
     margin-bottom: 20px;
-    
   }
   
   button {
@@ -127,17 +133,17 @@
   button:hover {
     background-color: #276379;
   }
-  
-  .cadastrar-link {
+
+  .entrar_link {
     color: white;
     font-weight: bold;
     text-decoration: none;
   }
   
-  .cadastrar-link:hover {
+  .entrar_link:hover {
     text-decoration: underline;
   }
-  
+
   .logo-container {
     flex: 1;
     display: flex;
@@ -153,38 +159,37 @@
   }
 
   footer {
-    background-color: #EDEDED;
+    background-color: #fff;
     padding: 0;
-    margin: 0;
   }
   
-  .footer-container {
+  .conteudo_footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 100%;
+    max-width: 1350px;
     margin: 0 auto;
     padding: 0 10px;
   }
   
-  .footer-left .logo-footer {
+  .esquerda_footer .logo_footer {
     max-width: 100px;
     height: auto;
   }
   
-  .footer-right {
+  .direita_footer {
     display: flex;
     flex-direction: column;
     gap: 10px;
   }
   
-  .footer-right a {
+  .direita_footer a {
     color: #276379;
     text-decoration: none;
     font-weight: bold;
     font-size: 12px;
   }
   
-  .footer-right a:hover {
+  .direita_footer a:hover {
     text-decoration: underline;
   }
