@@ -1,6 +1,6 @@
 # 🎓 Saber em Rede
 
-![Capa do Projeto](./figs/logo.png)
+![Capa do Projeto](./figs/Logo.png)
 
 > **Promovendo Educação de Qualidade com Tecnologia**
 > Um projeto alinhado ao ODS 4, que visa oferecer uma plataforma para facilitar o acesso a conteúdos educacionais e ferramentas de aprendizado.
