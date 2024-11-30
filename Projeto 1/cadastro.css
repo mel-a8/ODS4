@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  html{
+    display: flex;
+    flex-direction: column;
+  }
+
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #D0CCD0;
+    color: #333;
+  }
+  
+  header {
+    background-color: #EDEDED;
+    padding: 20px;
+    color: #276379;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #276379;
+  }
+  
+  .btn-entrar {
+    background-color: #1C6E8C;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .btn-entrar:hover {
+    background-color: #276379;
+  }
+
+  main {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-left: 15dvw;
+    height: 80vh;
+    padding: 60px;
+    flex-direction: row;
+    max-width: fit-content;
+    row-gap: 50px;
+  }
+  
+  #data-nascimento {
+    color: gray;
+    opacity: 1;
+  }
+
+  #data-nascimento:valid{
+    color: black;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    background-color: #274156;
+    padding: 40px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    max-height: fit-content;
+    max-width: 100%;
+  }
+  
+  h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: block;
+    color: #fff;
+  }
+  
+  input {
+    width: 25dvw;
+    padding: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    margin-bottom: 20px;
+    
+  }
+  
+  button {
+    width: 150px;
+    padding: 16px;
+    background-color: #1C6E8C;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #276379;
+  }
+  
+  .cadastrar-link {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .cadastrar-link:hover {
+    text-decoration: underline;
+  }
+  
+  .logo-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo-container img {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+  }
+
+  footer {
+    background-color: #EDEDED;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+  
+  .footer-left .logo-footer {
+    max-width: 100px;
+    height: auto;
+  }
+  
+  .footer-right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .footer-right a {
+    color: #276379;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  
+  .footer-right a:hover {
+    text-decoration: underline;
+  }
