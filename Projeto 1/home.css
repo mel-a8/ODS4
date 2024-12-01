@@ -37,7 +37,7 @@ header {
 .header-menu a{
   width: 150px;
   height: 50px;
-  background-color: #274156;
+  background-color: #1C6E8C;
   align-items: center;
   justify-content: center;
   font-size: 18px;
@@ -124,7 +124,8 @@ figcaption {
 }
 
 .home-img{
-    height: 75dvh;
+  height: 75dvh;
+  width: 40dvw;
 }
 
 .new-courses{

@@ -40,19 +40,6 @@
     height: auto;
   }
   
-  .botao_entrar {
-    background-color: #1C6E8C;
-    padding: 10px 20px;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-  }
-  
-  .botao_entrar:hover {
-    background-color: #276379;
-  }
-
   .fundo_cadastro {
     display: flex;
     justify-content: space-between;
@@ -116,34 +103,27 @@
     justify-content: center;
     height: fit-content;
     margin-bottom: 20px;
-  }
-  
-  button {
     width: 150px;
     padding: 16px;
     background-color: #1C6E8C;
-    color: #fff;
     border: none;
     border-radius: 5px;
-    font-weight: bold;
-    font-size: 16px;
     cursor: pointer;
   }
   
-  button:hover {
+ 
+  .botao:hover {
     background-color: #276379;
   }
 
-  .entrar_link {
+  .cadastro_link {
     color: white;
     font-weight: bold;
     text-decoration: none;
+    font-size: 16px;
+    
   }
   
-  .entrar_link:hover {
-    text-decoration: underline;
-  }
-
   .logo-container {
     flex: 1;
     display: flex;
