@@ -27,6 +27,7 @@
     background-color: #EDEDED;
     padding: 20px;
     color: #276379;
+    margin-bottom: 20dvh;
   }
 
   .conteudo_header {
@@ -48,8 +49,9 @@
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    width: 80%;
-    height: 100%;
+    width: 80dvw;
+    height: 120dvh;
+    
   }
 
   .formulario_cadastro {
@@ -80,6 +82,7 @@
   
   input {
     width: 25dvw;
+    height: .5dvh;
     padding: 16px;
     margin-bottom: 20px;
     border: 1px solid #ddd;
@@ -137,6 +140,7 @@
   }
 
   footer {
+    margin-top: 20dvh;
     background-color: #fff;
     padding: 0;
   }

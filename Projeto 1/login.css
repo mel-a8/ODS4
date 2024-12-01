@@ -16,6 +16,7 @@ header {
   background-color: #EDEDED;
   padding: 20px;
   color: #276379;
+  margin-bottom: 10dvh;
 }
 
 .header-container {
@@ -134,6 +135,7 @@ button:hover {
 footer {
   background-color: #EDEDED;
   padding: 0;
+  margin-top: 10dvh;
 }
 
 .footer-container {
