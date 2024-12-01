@@ -1,6 +1,6 @@
 # 🎓 Saber em Rede
 
-> **Promovendo Educação de Qualidade com Tecnologia**
+> **Promovendo Educação de Qualidade com Tecnologia.**
 > Um projeto alinhado ao ODS 4, que visa oferecer uma plataforma para facilitar o acesso a conteúdos educacionais e ferramentas de aprendizado.
 
 ---
