@@ -1,14 +1,14 @@
 # 🎓 Saber em Rede
 
-> **Promovendo Educação de Qualidade com Tecnologia**  
+> **Promovendo Educação de Qualidade com Tecnologia**
 > Um projeto alinhado ao ODS 4, que visa oferecer uma plataforma para facilitar o acesso a conteúdos educacionais e ferramentas de aprendizado.
 
 ---
 
 ## 🛡️ Badges
-![Status](https://img.shields.io/badge/Status-Concluído-green)  
-![Licença](https://img.shields.io/badge/Licen%C3%A7a-MIT-green)  
-![HTML](https://img.shields.io/badge/HTML-Utilizado-orange)  
+![Status](https://img.shields.io/badge/Status-Concluído-green) 
+![Licença](https://img.shields.io/badge/Licen%C3%A7a-MIT-green)
+![HTML](https://img.shields.io/badge/HTML-Utilizado-orange)
 ![CSS](https://img.shields.io/badge/CSS-Utilizado-blue)
 
 ---
@@ -36,9 +36,11 @@ O projeto segue as diretrizes do ODS 4 (Educação de Qualidade), visando democr
 1. **Página inicial** com listagem de cursos e aulas disponíveis.
 2. **Página de login** para acesso de usuários cadastrados.
 3. **Página de cadastro** para novos usuários.
-4. **Rodapé** com links para os currículos dos desenvolvedores.
+4. Rodapé com links para os currículos dos desenvolvedores.
+
 
 ---
+
 
 ## 💻 Tecnologias Utilizadas
 
@@ -57,12 +59,9 @@ Agradecimentos a todos que contribuíram para o desenvolvimento do projeto:
 
 ---
 
+
 ## 📜 Licença
 
 Este projeto está licenciado sob os termos da licença MIT. Para mais informações, consulte o arquivo [LICENSE](./LICENSE).
 
 ---
-
-
-
-
