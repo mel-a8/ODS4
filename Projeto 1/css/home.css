@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    
+    
+}
+
+body{
+    background-color: #D0CCD0;
+}
+
+header {
+    background-color: #EDEDED;
+    padding: 20px;
+    color: #276379;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo_header {
+    max-width: 200px;
+    height: auto;
+  }
+  
+.header-menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:100px;
+}
+
+.header-menu a{
+  width: 150px;
+  height: 50px;
+  background-color: #274156;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color:#EDEDED;
+  display: flex;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.header-menu a:hover{
+  background-color: #276379;
+}
+  
+.home-user{
+    width: auto;
+    height: auto;
+    margin: 10dvh 5dvw 0 5dvw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blue-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 8dvh;
+}
+
+.welcome-card{
+    width: 40dvw;
+    height: 15dvh;
+    align-items: center;
+    background-color: #1C6E8C;
+    justify-content: center;
+    font-size: 32px;
+    border-radius: 8px;
+    color: #EDEDED;
+    display: flex;
+    
+}
+
+.your-courses p{
+    position: absolute;
+    width: 15dvw;
+    height: 10dvh;
+    align-items: center;
+    background-color: #274156;
+    justify-content: center;
+    font-size: 28px;
+    border-radius: 8px;
+    color: #EDEDED;
+    display: flex;
+    z-index: 1;
+}
+
+.courses-img{
+    position: relative;
+    top: 5dvh;
+    width: 40dvw;
+    height: 47dvh;
+    align-items: center;
+    background-color: #1C6E8C;
+    justify-content: center;
+    font-size: 32px;
+    border-radius: 8px;
+    color: #EDEDED;
+    display: flex;
+    justify-content: space-around;
+}
+
+.courses-img img{
+    background-color: #1C6E8C;
+}
+
+figure {
+    text-align: center; 
+    background-color: #1C6E8C;
+}
+
+
+figcaption {
+    font-size: 20px;
+    color: #EDEDED;
+    background-color: #1C6E8C;
+}
+
+.home-img{
+    height: 75dvh;
+}
+
+.new-courses{
+    margin: 25dvh 5dvw 0 5dvw;
+    padding-bottom: 20dvh;
+}
+
+.new-courses p{
+    position: absolute;
+    width: 20dvw;
+    height: 10dvh;
+    align-items: center;
+    background-color: #274156;
+    justify-content: center;
+    font-size: 28px;
+    border-radius: 8px;
+    color: #EDEDED;
+    display: flex;
+    z-index: 1;
+}
+
+.new-courses-img{
+    position: relative;
+    top: 5dvh;
+    height: 75dvh;
+    align-items: center;
+    background-color: #1C6E8C;
+    justify-content: center;
+    font-size: 32px;
+    border-radius: 8px;
+    color: #EDEDED;
+    display: flex;
+    justify-content: space-around; 
+}
+
+.new-courses-img img{
+    background-color: #1C6E8C;
+}
+
+footer {
+    background-color: #EDEDED;
+    padding: 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+  
+  .footer-left .logo-footer {
+    max-width: 100px;
+    height: auto;
+  }
+  
+  .footer-right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .footer-right a {
+    color: #276379;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  
+  .footer-right a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Ícones das Redes Sociais */
+  .social-icons {
+    display: flex; 
+    gap: 15px; 
+  }
+  
+  .social-icons i {
+    font-size: 24px;
+    color: #276379;
+  }
+  
+  .social-icons i:hover {
+    color: #1C6E8C; 
+  }
+
