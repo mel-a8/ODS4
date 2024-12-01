@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #f1f1f1;
+  background-color: #D0CCD0;
   color: #333;
 }
 
@@ -15,6 +15,7 @@ body {
 header {
   background-color: #EDEDED;
   padding: 20px;
+  color: #276379;
 }
 
 .header-container {
@@ -22,7 +23,10 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-
+.logo_header {
+  max-width: 200px;
+  height: auto;
+}
 header h1 {
   font-size: 28px;
   font-weight: bold;
@@ -32,7 +36,7 @@ header h1 {
 .btn-cadastrar {
   background-color: #1C6E8C;
   padding: 10px 20px;
-  color: #EDEDED;
+  color: #fff;
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
@@ -73,7 +77,7 @@ main {
 h2 {
   font-size: 32px;
   margin-bottom: 30px;
-  color: #EDEDED;
+  color: #fff;
   text-align: center;
 }
 
@@ -81,22 +85,25 @@ label {
   font-size: 16px;
   margin-bottom: 5px;
   display: block;
-  color: #EDEDED;
+  color: #fff;
 }
 
 input {
   width: 100%;
   padding: 16px;
   margin-bottom: 20px;
-  border: 1px solid #EDEDED;
+  border: 1px solid #ddd;
   border-radius: 5px;
   font-size: 16px;
 }
 
 .buttons {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    margin-bottom: 20px;
 }
 
 button {
@@ -177,3 +184,17 @@ footer {
   text-decoration: underline;
 }
 
+/* Ícones das Redes Sociais */
+.social-icons {
+  display: flex; 
+  gap: 15px; 
+}
+
+.social-icons i {
+  font-size: 24px;
+  color: #276379;
+}
+
+.social-icons i:hover {
+  color: #1C6E8C; 
+}

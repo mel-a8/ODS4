@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Saber em Rede - Login</title>
     <link rel="stylesheet" href="login.css">
+    <!-- Link para o Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
 <body>
 
     <!-- Cabeçalho -->
     <header>
         <div class="header-container">
-            <h1>SABER EM REDE</h1>
+            <img src="figs/saber.png" alt="Saber em Rede" class="logo_header">
             <a href="cadastro.html" class="btn-cadastrar">Cadastre-se</a>
         </div>
     </header>
@@ -21,18 +23,17 @@
         <div class="login-container">
             <div class="login-form">
                 <h2>Efetue o login</h2>
-                <form action="login-processar.html" method="POST">
-                    <label for="email">Digite o e-mail</label>
-                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                <label for="email">Digite o e-mail</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
 
-                    <label for="senha">Digite a senha</label>
-                    <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+                <label for="senha">Digite a senha</label>
+                <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
 
-                    <div class="buttons">
-                        <button type="submit" class="btn-entrar">Entrar</button>
-                        <a href="cadastro.html" class="cadastrar-link">ou cadastre-se</a>
-                    </div>
-                </form>
+                <div class="buttons">
+                    <!-- Botão para redirecionar para a página Home -->
+                    <button type="button" id="btn-entrar" class="btn-entrar">Entrar</button>
+                    <a href="cadastro.html" class="cadastrar-link">ou cadastre-se</a>
+                </div>
             </div>
             <div class="logo-container">
                 <img src="figs/Logo.png" alt="Logo Saber em Rede">
@@ -43,17 +44,33 @@
     <!-- Rodapé -->
     <footer>
         <div class="footer-container">
-          <div class="footer-left">
-            <img src="figs/Logo.png" alt="Logo Saber em Rede" class="logo-footer">
-          </div>
-          <div class="footer-right">
-            <a href="curriculo-amanda.html" target="_blank">Currículo de Amanda</a>
-            <a href="curriculo-thomas.html" target="_blank">Currículo de Thomas</a>
-            <a href="curriculo-melina-g.html" target="_blank">Currículo de Melina</a>
-          </div>
+            <div class="footer-left">
+                <img src="figs/Logo.png" alt="Logo Saber em Rede" class="logo-footer">
+            </div>
+            <div class="footer-right">
+                <a href="curriculo-amanda.html" target="_blank">Currículo de Amanda</a>
+                <a href="curriculo-thomas.html" target="_blank">Currículo de Thomas</a>
+                <a href="curriculo-melina-g.html" target="_blank">Currículo de Melina</a>
+                <div class="social-icons">
+                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-facebook"></i>
+                </div>
+            </div>
         </div>
-      </footer>
-      
+    </footer>
+
+
+    <script>
+
+        const btnEntrar = document.getElementById("btn-entrar");
+
+        // Adiciona o evento de clique
+        btnEntrar.addEventListener("click", function() {
+
+            window.location.href = "Home.html";
+        });
+    </script>
 
 </body>
 </html>
