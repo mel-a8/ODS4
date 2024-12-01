@@ -11,7 +11,7 @@ body {
   color: #333;
 }
 
-/* Cabeçalho */
+/* CabeĆ§alho */
 header {
   background-color: #EDEDED;
   padding: 20px;
@@ -29,7 +29,7 @@ header {
 }
 
 
-/* Conteúdo Principal */
+/* ConteĆŗdo Principal */
 main {
   display: flex;
   justify-content: center;
@@ -101,7 +101,7 @@ button {
   cursor: pointer;
 }
 
-buttons:hover {
+button:hover {
   background-color: #276379;
 }
 
@@ -130,7 +130,7 @@ buttons:hover {
   height: auto;
 }
 
-/* Rodapé */
+/* RodapĆ© */
 footer {
   background-color: #EDEDED;
   padding: 0;
@@ -167,7 +167,7 @@ footer {
   text-decoration: underline;
 }
 
-/* Ícones das Redes Sociais */
+/* Ć¨cones das Redes Sociais */
 .social-icons {
   display: flex; 
   gap: 15px; 
