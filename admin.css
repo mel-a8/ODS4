@@ -1,0 +1,155 @@
+/* Estilos Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #D0CCD0;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #EDEDED;
+    padding: 20px;
+    color: #276379;
+    margin-bottom: 10vh;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_header {
+    max-width: 200px;
+    height: auto;
+}
+
+/* Conteúdo Principal */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.body-container {
+    background-color: #274156; 
+    padding: 40px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 900px;
+    color: white; 
+}
+
+/* Formulário de Admin */
+.admin-form {
+    flex: 1;
+    background-color: #1C6E8C; 
+    padding: 40px;
+    border-radius: 10px;
+    margin-right: 20px;
+    color: #fff;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #fff; 
+    text-align: center;
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: block;
+    color: #fff; 
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Botões */
+.buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 40px; 
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #1C6E8C; 
+    color: #EDEDED;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #276379; 
+}
+
+/* Lista de Usuários */
+.user-list {
+    margin-top: 100px; 
+}
+
+.user-list ul {
+    list-style: none;
+}
+
+.user-list li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-list button {
+    background-color: #D9534F;
+}
+
+.user-list button:hover {
+    background-color: #C9302C;
+}
+
+/* Rodapé */
+footer {
+    background-color: #EDEDED;
+    padding: 10px 0;
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.footer-right a {
+    color: #276379;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.footer-right a:hover {
+    text-decoration: underline;
+}
