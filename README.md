@@ -38,7 +38,7 @@ O **Saber em Rede** é uma plataforma digital inovadora que busca **tornar a edu
 ## ✨ Funcionalidades  
 
 ✅ **Página inicial interativa** com listagem de cursos recomendados.  
-✅ **Cadastro e login de usuários** com validação em **JavaScript**.  
+✅ **Cadastro e login de usuários** com validação.  
 ✅ **Área exclusiva do usuário**, exibindo seus cursos inscritos.  
 ✅ **Painel de Administração** com opções para gerenciar usuários e cursos.  
 ✅ **Botão "Admin"** dinâmico, visível apenas para usuários autorizados.  
