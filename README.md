@@ -8,7 +8,7 @@
 ## 🏆 Status do Projeto  
 
 ![Status](https://img.shields.io/badge/Status-Concluído-green)  
-![Licença](https://img.shields.io/badge/Licen%C3%A7a-MIT-green)  
+![Licença](https://img.shields.io/badge/Licen%C3%A7a-MIT-red)  
 ![HTML](https://img.shields.io/badge/HTML-Utilizado-orange)  
 ![CSS](https://img.shields.io/badge/CSS-Utilizado-blue)  
 ![JavaScript](https://img.shields.io/badge/JavaScript-Utilizado-yellow)  
