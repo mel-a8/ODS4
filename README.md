@@ -18,11 +18,10 @@
 ## 📌 Índice  
 
 1. [📜 Descrição do Projeto](#-descrição-do-projeto)  
-2. [✨ Funcionalidades](#-funcionalidades)  
-3. [🎥 Demonstração](#-demonstração)  
-4. [💻 Tecnologias Utilizadas](#-tecnologias-utilizadas)  
-5. [👥 Pessoas Contribuidoras](#-pessoas-contribuidoras)  
-6. [📜 Licença](#-licença)  
+2. [✨ Funcionalidades](#-funcionalidades)   
+3. [💻 Tecnologias Utilizadas](#-tecnologias-utilizadas)  
+4. [👥 Pessoas Contribuidoras](#-pessoas-contribuidoras)  
+5. [📜 Licença](#-licença)  
 
 ---
 
@@ -30,7 +29,7 @@
 
 O **Saber em Rede** é uma plataforma digital inovadora que busca **tornar a educação mais acessível, interativa e inclusiva**.  
 
-🔹 O sistema permite que usuários explorem cursos disponíveis, realizem **cadastro/login**, salvem dados no **Local Storage** e administrem conteúdos.  
+🔹 O sistema permite que usuários explorem cursos disponíveis, realizem **cadastro/login**.  
 🔹 O projeto segue os princípios da **Educação 4.0**, promovendo a inclusão digital com uma interface amigável e responsiva.  
 🔹 Desenvolvido com **HTML, CSS e JavaScript puro**, sem dependência de frameworks externos.  
 
@@ -39,25 +38,18 @@ O **Saber em Rede** é uma plataforma digital inovadora que busca **tornar a edu
 ## ✨ Funcionalidades  
 
 ✅ **Página inicial interativa** com listagem de cursos recomendados.  
-✅ **Cadastro e login de usuários** com validação em **JavaScript**.  
+✅ **Cadastro e login de usuários**. 
 ✅ **Área exclusiva do usuário**, exibindo seus cursos inscritos.  
 ✅ **Painel de Administração** com opções para gerenciar usuários e cursos.  
 ✅ **Botão "Admin"** dinâmico, visível apenas para usuários autorizados.  
 ✅ **Pesquisa em tempo real** nos cursos disponíveis.  
 ✅ **Dados armazenados no Local Storage**, garantindo persistência entre sessões.  
 
----
-
-## 🎥 Demonstração  
-
-> Em breve, um vídeo demonstrativo será disponibilizado.  
-
----
 
 ## 💻 Tecnologias Utilizadas  
 
-🔹 **HTML5** → Estruturação das páginas.  
-🔹 **CSS3** → Estilização moderna e responsiva.  
+🔹 **HTML** → Estruturação das páginas.  
+🔹 **CSS** → Estilização moderna e responsiva.  
 🔹 **JavaScript (DOM & Web Storage API)** → Manipulação dinâmica de elementos e armazenamento de dados.  
 🔹 **Git/GitHub** → Controle de versão e colaboração.  
 
