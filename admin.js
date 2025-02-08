@@ -15,7 +15,7 @@ function carregarUsuarios() {
     usuarios.forEach((usuario, index) => {
         const li = document.createElement('li');
         li.innerHTML = `
-            <span>${usuario.nome} - ${usuario.email}</span>
+            <span>${usuario.nome} - ${usuario.email} (Cadastrado em: ${usuario.data})</span>
             <button class="excluirBtn" data-index="${index}">Excluir</button>
         `;
         userList.appendChild(li);
@@ -28,11 +28,12 @@ userForm.addEventListener('submit', function(event) {
 
     const nome = nomeInput.value;
     const email = emailInput.value;
+    const data = new Date().toLocaleString();
 
     if (!nome || !email) return; // Verifica se ambos os campos estão preenchidos
 
     const usuarios = JSON.parse(localStorage.getItem('usuarios')) || [];
-    usuarios.push({ nome, email });
+    usuarios.push({ nome, email, data });
     
     // Salva no Local Storage
     localStorage.setItem('usuarios', JSON.stringify(usuarios));
@@ -72,7 +73,8 @@ searchInput.addEventListener('input', function() {
     const usuarios = JSON.parse(localStorage.getItem('usuarios')) || [];
     const filteredUsers = usuarios.filter(usuario => 
         usuario.nome.toLowerCase().includes(searchTerm) ||
-        usuario.email.toLowerCase().includes(searchTerm)
+        usuario.email.toLowerCase().includes(searchTerm) ||
+        usuario.data.toLowerCase().includes(searchTerm)
     );
     
     // Recarrega a lista com os resultados filtrados
@@ -80,7 +82,7 @@ searchInput.addEventListener('input', function() {
     filteredUsers.forEach((usuario, index) => {
         const li = document.createElement('li');
         li.innerHTML = `
-            <span>${usuario.nome} - ${usuario.email}</span>
+            <span>${usuario.nome} - ${usuario.email} (Cadastrado em: ${usuario.data})</span>
             <button class="excluirBtn" data-index="${index}">Excluir</button>
         `;
         userList.appendChild(li);
