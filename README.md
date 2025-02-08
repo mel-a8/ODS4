@@ -1,11 +1,11 @@
 # 🎓 Saber em Rede  
 
-> **Promovendo Educação de Qualidade com Tecnologia.**  
-> Um projeto alinhado ao **ODS 4** (Educação de Qualidade), que visa democratizar o acesso ao aprendizado por meio de uma plataforma interativa e acessível.
+> **📚 Democratizando o acesso à educação com tecnologia**  
+> Um projeto alinhado ao **ODS 4 (Educação de Qualidade)**, oferecendo uma plataforma interativa para facilitar o aprendizado e a conexão entre educadores e estudantes.  
 
 ---
 
-## 🛡️ Status e Tecnologias  
+## 🏆 Status do Projeto  
 
 ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)  
 ![Licença](https://img.shields.io/badge/Licen%C3%A7a-MIT-green)  
@@ -17,34 +17,38 @@
 
 ## 📌 Índice  
 
-1. [📜 Descrição do Projeto](#📜-descrição-do-projeto)  
-2. [✨ Funcionalidades e Demonstração](#✨-funcionalidades-e-demonstração)  
-3. [💻 Tecnologias Utilizadas](#💻-tecnologias-utilizadas)  
-4. [👥 Pessoas Contribuidoras](#👥-pessoas-contribuidoras)  
-5. [📜 Licença](#📜-licença)  
+1. [📜 Descrição do Projeto](#-descrição-do-projeto)  
+2. [✨ Funcionalidades](#-funcionalidades)  
+3. [🎥 Demonstração](#-demonstração)  
+4. [💻 Tecnologias Utilizadas](#-tecnologias-utilizadas)  
+5. [👥 Pessoas Contribuidoras](#-pessoas-contribuidoras)  
+6. [📜 Licença](#-licença)  
 
 ---
 
 ## 📜 Descrição do Projeto  
 
-O **Saber em Rede** é uma plataforma digital desenvolvida para facilitar o acesso à educação de qualidade. Com um design intuitivo e responsivo, a aplicação conecta alunos e educadores por meio de cursos, materiais interativos e ferramentas de aprendizado.  
+O **Saber em Rede** é uma plataforma digital inovadora que busca **tornar a educação mais acessível, interativa e inclusiva**.  
 
-O projeto segue as diretrizes do **ODS 4 (Educação de Qualidade)**, promovendo a inclusão digital e a acessibilidade na educação por meio da tecnologia.
+🔹 O sistema permite que usuários explorem cursos disponíveis, realizem **cadastro/login**, salvem dados no **Local Storage** e administrem conteúdos.  
+🔹 O projeto segue os princípios da **Educação 4.0**, promovendo a inclusão digital com uma interface amigável e responsiva.  
+🔹 Desenvolvido com **HTML, CSS e JavaScript puro**, sem dependência de frameworks externos.  
 
 ---
 
-## ✨ Funcionalidades e Demonstração  
+## ✨ Funcionalidades  
 
-### **🚀 Funcionalidades Principais**  
+✅ **Página inicial interativa** com listagem de cursos recomendados.  
+✅ **Cadastro e login de usuários** com validação em **JavaScript**.  
+✅ **Área exclusiva do usuário**, exibindo seus cursos inscritos.  
+✅ **Painel de Administração** com opções para gerenciar usuários e cursos.  
+✅ **Botão "Admin"** dinâmico, visível apenas para usuários autorizados.  
+✅ **Pesquisa em tempo real** nos cursos disponíveis.  
+✅ **Dados armazenados no Local Storage**, garantindo persistência entre sessões.  
 
-✅ **Interface dinâmica** com exibição de cursos sugeridos.  
-✅ **Área personalizada do usuário**, mostrando cursos cadastrados.  
-✅ **Cadastro e login de usuários** com validação via **JavaScript**.  
-✅ **Gerenciamento de cursos** (função exclusiva para administradores).  
-✅ **Botão "Admin"** disponível apenas para usuários autorizados.  
-✅ **Armazenamento no Local Storage**, garantindo persistência de dados.  
+---
 
-### **📽️ Demonstração da Aplicação**  
+## 🎥 Demonstração  
 
 > Em breve, um vídeo demonstrativo será disponibilizado.  
 
@@ -54,7 +58,7 @@ O projeto segue as diretrizes do **ODS 4 (Educação de Qualidade)**, promovendo
 
 🔹 **HTML5** → Estruturação das páginas.  
 🔹 **CSS3** → Estilização moderna e responsiva.  
-🔹 **JavaScript (DOM & Web Storage API)** → Interatividade e manipulação de dados.  
+🔹 **JavaScript (DOM & Web Storage API)** → Manipulação dinâmica de elementos e armazenamento de dados.  
 🔹 **Git/GitHub** → Controle de versão e colaboração.  
 
 ---
@@ -74,3 +78,5 @@ Agradecemos a todos que colaboraram no desenvolvimento deste projeto:
 Este projeto está licenciado sob os termos da licença **MIT**. Para mais informações, consulte o arquivo [LICENSE](./LICENSE).  
 
 ---
+
+🚀 **"Educação é a chave para um futuro melhor. Com tecnologia, essa chave fica ao alcance de todos!"**  
